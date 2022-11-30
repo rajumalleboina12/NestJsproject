@@ -1,0 +1,49 @@
+[22-11 15:03] Sri sai Renu Venkata
+One dark pro,vscode-icons,settings sync,Nx console
+
+[22-11 15:03] Sri sai Renu Venkata
+gitlens
+
+[22-11 15:03] Sri sai Renu Venkata
+Es lint
+
+nest new nestjs-task-management
+for new project
+[24-11 12:28] girijasyamalamba anivilla
+nest g class dto/create-task
+to create class 
+
+[24-11 16:56] Sri sai Renu Venkata
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s1-task-management-app
+
+[24-11 18:14] girijasyamalamba anivilla
+nest g class dto/update-task-status.dto  
+
+[24-11 19:19] Sri sai Renu Venkata
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s2-validation-and-error-handling
+
+[25-11 14:35] Sri sai Renu Venkata
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s3-persistence
+GitHub - arielweinberger/nestjs-course-task-management at s3-persistence
+Task Management back-end application developed throughout the &quot;NestJS Zero to Hero - Modern TypeScript Back-end Development&quot; Udemy course - GitHub - arielweinberger/nestjs-course-...
+
+[25-11 16:07] Sri sai Renu Venkata
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s3-persistence
+GitHub - arielweinberger/nestjs-course-task-management at s3-persistence
+Task Management back-end application developed throughout the &quot;NestJS Zero to Hero - Modern TypeScript Back-end Development&quot; Udemy course - GitHub - arielweinberger/nestjs-course-...
+
+[25-11 17:38] Sri sai Renu Venkata
+npm i --save  @nestjs/mongoose mongoose
+
+import * as mongoose from 'mongoose';
+export const TaskSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  description: { type: String, required: true },
+});
+
+[25-11 17:39] Sri sai Renu Venkata
+imports: [MongooseModule.forFeature([{ name: 'Task', schema: TaskSchema }])]
+
+npm i --save  @nestjs/mongoose mongoose
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s4-auth-part-
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s5-auth-part-2-task-ownership
